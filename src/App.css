@@ -1,0 +1,278 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.mainheading{
+  margin-top: 10%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.img{
+  width: 100%;
+}
+.homeimg{
+  background-image: url(./Assets/banner1.png);
+  align-items: center;
+  height: 100%;
+  width:100%;
+}
+.content-pos {
+  position: absolute;
+  overflow: auto;
+  z-index: -10;
+}
+
+.btn-bg {
+  background-color: #DD5A6A;
+  width: 111px;
+  height: 44px;
+  color :white;
+}
+.appt-btn{
+  background-color: #DD5A6A;
+  border-radius: 3.2px;
+  width: 186px;
+  height: 45px;
+  color: white;
+}
+.rect-text{
+  font-family: StagSans;
+  font-size: 18px;
+  line-height: 26px;
+  width: fit-content;
+  text-align: left;
+}
+.rect-text-bg{
+  background: radial-gradient(10.15% 0%, #2EC4B8 10%, #6078EA 100%) !important;
+  border: 10px;
+ 
+}
+.rect-text-bg1{
+  color: #000000;
+  font-family: StagSans;
+  font-size: 17px;
+  line-height: 20px;
+  width: 532px;
+  text-align: left;
+  border-color:white ;
+ 
+}
+
+.login-form {
+  padding: 40px;
+  margin: 20px;
+  width: fit-content;
+}
+.text2{
+  color: #FFFFFF;
+  font-family: Titillium;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 40px;
+  width: 622px;
+  text-align: left;
+
+}
+.text3{
+  color: #FFFFFF;
+  font-family: StagSans;
+  font-size: 25px;
+  letter-spacing: 3.59px;
+  line-height: 34px;
+  width: 599px;
+  text-align: left;
+}
+
+
+/* //Doctors */
+.doctors-text{
+  color: #22B78E;
+  font-family: StagSans;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+}
+
+.doctorimg{
+  width: 256px;
+  height: 161px;
+  margin: 0px;
+  align-self: center;
+}
+.doc_card{
+  background-color: #F9F9FF;
+  border-radius: 4px;
+  border-color: white;
+  /* padding-block: 74%; */
+  padding: 5%;
+  width: 100%;
+  
+}
+.doc_name{
+  color: #1D5AA6;
+  font-family: StagSans;
+  font-size: 22px;
+  letter-spacing: 1.76px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 100;
+}
+.doc_title{
+  color: #22B78E;
+  font-family: StagSans;
+  font-size: 24px;
+  letter-spacing: 0.99px;
+  line-height: 44px;
+  text-align: left;
+}
+.doc_pos{
+  color: #1D5AA6;
+  font-family: StagSans;
+  font-size: 15px;
+  /* letter-spacing: 1.2px; */
+  /* line-height: 3px; */
+  /* text-align: center;
+  align-self: center;
+  text-align: center; */
+}
+.doc_desc{
+  color: #000000;
+  font-family: StagSans;
+  font-size: 120%;
+  /* line-height: 20px; */
+  /* width: 423px; */
+  /* text-align: center; */
+}
+.btn_knowmore{
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* warnings
+ */
+.heading{
+  color: #22B78E;
+  font-family: StagSans;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+}
+
+.subpoints{
+  color: #000000;
+  font-family: StagSans;
+  font-size: 14px;
+  line-height: 39px;
+  width: 1068px;
+  text-align: left;
+}
+
+/* //testimonials */
+.test_card{
+  position: relative;
+  max-width: 517px;
+  /* max-height: 249px; */
+  min-width: 517px;
+  margin: 16px;
+  border: none;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  box-shadow: 14px 14px 31px 0 rgb(0 0 0 / 4%);
+  width: 517px;
+  /* height: 249px; */
+}
+ 
+
+
+.test_heading{
+  color: #22B78E;
+  font-family: StagSans;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+}
+.scroll_card{
+  overflow-x: scroll;
+    flex-wrap: inherit;
+
+}
+.scroll_card::-webkit-scrollbar {
+  width: none;
+}
+.footer{
+  background-color: #272727;
+  height: 256px;
+}
+.col1dmy{
+  width: 0px;
+  min-width: 0px;
+  max-width: 0px;
+}
+.bookappt{
+  background-color: #004498;
+    border-radius: 3.81px;
+    width: 221px;
+    height: 54px;
+    margin-top: 63px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 17.14px;
+    line-height: 21px;
+}
+.bookbtn{
+  margin: 0 auto;
+}
+
+.socialImg{
+  align-self: center;
+    margin: 0 50%;
+}
+.footer1{
+  top: 10%;
+  text-align: center !important;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    left: 50%;
+}
+.socialimages{
+  padding-left: 3px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
